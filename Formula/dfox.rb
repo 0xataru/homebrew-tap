@@ -1,25 +1,25 @@
 class Dfox < Formula
   desc "Blazing-fast database client for your terminal: SQL and NoSQL in one TUI"
   homepage "https://github.com/0xataru/dfox"
-  version "0.6.0"
+  version "0.7.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/0xataru/dfox/releases/download/v0.6.0/dfox-aarch64-apple-darwin.tar.xz"
-      sha256 "796607eb1f7ef80da79ac95425d304901b240c34d2cce3dc261c8ad70c6389db"
+      url "https://github.com/0xataru/dfox/releases/download/v0.7.0/dfox-aarch64-apple-darwin.tar.xz"
+      sha256 "77d17b81d2273a5104010c262d8cb3711da54372845729a42328b96c554ff89a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/0xataru/dfox/releases/download/v0.6.0/dfox-x86_64-apple-darwin.tar.xz"
-      sha256 "5983779f67a68b25d7ea53dd2edcf51d942f7c3220cf16fccd4aa83a2aae8dc1"
+      url "https://github.com/0xataru/dfox/releases/download/v0.7.0/dfox-x86_64-apple-darwin.tar.xz"
+      sha256 "b2182dc43469b53dd9a7468df7b50c9ad9f89dee6f705bdfa4969b2ff7414d17"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/0xataru/dfox/releases/download/v0.6.0/dfox-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "7a28c9d09a7a4e28eb0f33d49ada0a4059aa65e5b1117b673b1b721f27a2b112"
+      url "https://github.com/0xataru/dfox/releases/download/v0.7.0/dfox-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "f6de532f8f2f80fa3a15b1f97696e627ead1f2c234b3a151d2ac4382af27f41f"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/0xataru/dfox/releases/download/v0.6.0/dfox-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "ef1220d4036fbbba6d33ee0ed11f29e7f9014ac01fa937de201a6d64aebc021d"
+      url "https://github.com/0xataru/dfox/releases/download/v0.7.0/dfox-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "eeaeaaca389042648a4ed09051e69f3d8393030301df8003d425caee092f41cd"
     end
   end
   license "Apache-2.0"
